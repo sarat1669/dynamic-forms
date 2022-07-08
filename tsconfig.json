@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["es2015", "es2017", "es2018", "es2019", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "noImplicitReturns": true,
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.*"]
+}
